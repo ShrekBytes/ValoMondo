@@ -50,16 +50,16 @@ valomondo.info/
 11. **Websites** - Online services
 
 ### Core Features
-- ✅ User authentication and profiles
-- ✅ Review and rating system (1-5 stars)
-- ✅ Dual rating system (user ratings + moderator rating)
-- ✅ Nested comment replies
-- ✅ Content moderation workflow
-- ✅ Full-text search with filters
-- ✅ Location-based search (Division, District, Area)
-- ✅ Price tracking and comparisons
-- ✅ Media uploads (photos/videos)
-- ✅ Map integration for location-based items
+- User authentication and profiles
+- Review and rating system (1-5 stars)
+- Dual rating system (user ratings + moderator rating)
+- Nested comment replies and reports
+- Content moderation workflow
+- Full-text search with filters
+- Location-based search (Division, District, Area)
+- Price tracking and comparisons
+- Media uploads (photos/videos)
+- Map integration for location-based items
 
 ## Setup Instructions
 

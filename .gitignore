@@ -23,7 +23,6 @@ public/storage/
 
 # Environment & local overrides
 .env
-.env.*
 .env.local
 .env.*.local
 
