@@ -3,16 +3,19 @@
 
 A comprehensive review and information platform for everything in Bangladesh - from products and services to places and professionals.
 
+![](/screenshots/showcase.png)
+
+
 ## Project Structure
 
 ```
 valomondo/
 ├── backend/          # Laravel API (PostgreSQL)
 ├── frontend/         # Next.js User Frontend
-└── admin/           # Laravel Admin Panel (Livewire)
+├── admin/            # Laravel Admin Panel (Livewire)
+└── screenshots/      # Project previews
 ```
 
-Screenshot previews live in the `screenshots/` folder.
 
 ## Technology Stack
 
