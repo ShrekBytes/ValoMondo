@@ -1,11 +1,12 @@
-# ValoMondo.Info
+# ValoMondo
+<!-- # ValoMondo.Info -->
 
 A comprehensive review and information platform for everything in Bangladesh - from products and services to places and professionals.
 
 ## Project Structure
 
 ```
-valomondo.info/
+valomondo/
 ├── backend/          # Laravel API (PostgreSQL)
 ├── frontend/         # Next.js User Frontend
 └── admin/           # Laravel Admin Panel (Livewire)
