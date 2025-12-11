@@ -12,6 +12,8 @@ valomondo/
 └── admin/           # Laravel Admin Panel (Livewire)
 ```
 
+Screenshot previews live in the `screenshots/` folder.
+
 ## Technology Stack
 
 ### Backend API
