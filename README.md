@@ -1,11 +1,11 @@
-# Bangladesh Review Platform
+# ValoMondo.Info
 
 A comprehensive review and information platform for everything in Bangladesh - from products and services to places and professionals.
 
 ## Project Structure
 
 ```
-project_y/
+valomondo.info/
 ├── backend/          # Laravel API (PostgreSQL)
 ├── frontend/         # Next.js User Frontend
 └── admin/           # Laravel Admin Panel (Livewire)
@@ -36,7 +36,7 @@ project_y/
 
 ## Features
 
-### 11 Categories
+### 11 Categories and more coming
 1. **Products** - Food items, electronics, and consumer goods
 2. **Restaurants** - Food establishments
 3. **Shops** - Retail stores
@@ -205,31 +205,6 @@ $user = App\Models\User::create([
 - `GET /api/search?q=...&category=...` - Global search
 - `GET /api/filter?category=...&division=...` - Advanced filtering
 
-## Database Schema
-
-### Core Tables
-- `users` - User accounts and moderators
-- `categories` - Category definitions
-- `reviews` - Polymorphic reviews with nesting
-- `ratings` - Polymorphic ratings (user + moderator)
-- `media` - Spatie media library tables
-
-### Category-Specific Tables
-Each category has its own table with specific fields:
-- `products` (with manufacturer_id, price)
-- `restaurants` (with cuisine_type, operating_hours)
-- `shops` (with type, location)
-- `manufacturers` (with contact info, social links)
-- `schools` (with EIIN number, fees)
-- `universities` (with courses, fees)
-- `hospitals` (with specialties, facilities)
-- `hotels` (with amenities, price range)
-- `tourist_spots` (with entry fee, activities)
-- `technicians` (with specialty, service areas)
-- `websites` (with URL, category)
-
-### Pivot Tables
-- `product_shop` - Products available at shops
 
 ## Admin Panel Features
 
@@ -256,33 +231,15 @@ Each category has its own table with specific fields:
    cd admin && php artisan serve --port=8001
    ```
 
-## Future Enhancements
 
-- [ ] Image upload and management
-- [ ] Video upload support
-- [ ] Email notifications
-- [ ] SMS notifications (Bangladeshi providers)
-- [ ] Advanced search with Elasticsearch
-- [ ] Mobile app (React Native)
-- [ ] API rate limiting
-- [ ] Caching (Redis)
-- [ ] Queue processing
-- [ ] Social media integration
-- [ ] User reputation system
-- [ ] Badges and achievements
-- [ ] Report abuse functionality
+## 🤝 Contributing
 
-## Contributing
+Found a bug or have a feature request?
+[Open an issue](issues) or submit a pull request.
 
-This project is currently in initial development phase. Contributions, suggestions, and feedback are welcome!
+## 📄 License
 
-## License
-
-This project is proprietary. All rights reserved.
-
-## Contact
-
-For questions or support, please contact the development team.
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
 
 ---
 
