@@ -241,7 +241,7 @@ $user = App\Models\User::create([
 ## 🤝 Contributing
 
 Found a bug or have a feature request?
-[Open an issue](issues) or submit a pull request.
+[Open an issue](../../issues) or submit a pull request.
 
 ## 📄 License
 
